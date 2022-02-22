@@ -1,0 +1,119 @@
+@import "./colors";
+@import "./button";
+@import "./typo";
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    font-size: 42px;
+    font-weight: map-get($font-weights, semibold);
+}
+
+.description {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: map-get($font-weights, reguler);
+    color: $gray;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.pricing {
+    background: $grays;
+    h1 {
+        padding-top: 10px;
+        font-size: 32px;
+    }
+    .master-card {
+        padding: 30px;
+        border-radius: 22px;
+        .btn {
+            width: 100%;
+            margin-top: 40px;
+        }
+        .item-benefit {
+            img {
+                float: left;
+                margin-right: 10px;
+            }
+            p {
+                font-size: 16px;
+                font-weight: get-map($font-weights, reguler);
+            }
+        }
+        .name {
+            color: $black;
+            font-size: 18px;
+            font-weight: get-map($font-weights, reguler);
+        }
+        .price {
+            color: $black;
+            font-size: 32px;
+            font-weight: map-get($font-weights, semibold);
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+        .description {
+            font-size: 16px;
+            font-weight: map-get($font-weights, medium);
+        }
+        .support {
+            margin-bottom: 30px;
+        }
+    }
+    .basic-card {
+        @extend .master-card;
+        background: $white;
+    }
+}
+
+.navbar-logo {
+    padding-top: 30px;
+    .navbar-nav {
+        li {
+            padding-left: 30px;
+        }
+        .active {
+            color: $green !important;
+            font-weight: map-get($font-weights, semibold) !important;
+        }
+        .nav-link {
+            color: $nav;
+            font-weight: map-get($font-weights, reguler);
+        }
+    }
+}
+
+.sales {
+    padding-top: 70px;
+    .brand {
+        margin-top: 10px;
+        text-align: center;
+        .image-logos {
+            width: 500px;
+            margin-bottom: 80px;
+        }
+    }
+    .copywriting {
+        .header {
+            font-size: 42px;
+            font-weight: map-get($font-weights, semibold);
+            line-height: 60px;
+        }
+        .description {
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: map-get($font-weights, reguler);
+            color: $gray;
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+    }
+    .hero {
+        img {
+            padding-bottom: 200px;
+            padding-left: 120px;
+        }
+    }
+}

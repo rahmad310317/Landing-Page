@@ -1,0 +1,144 @@
+.btn-master, .btn-primary {
+  padding: 15px 26px 15px 26px;
+  border-radius: 10px;
+  font-weight: 500;
+  border: 0;
+}
+
+.btn-primary {
+  background: #15ABA4;
+  color: white;
+}
+
+.learn {
+  color: #ADADAD;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  font-size: 42px;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #ADADAD;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.pricing {
+  background: #F0F0F0;
+}
+
+.pricing h1 {
+  padding-top: 10px;
+  font-size: 32px;
+}
+
+.pricing .master-card, .pricing .basic-card {
+  padding: 30px;
+  border-radius: 22px;
+}
+
+.pricing .master-card .btn, .pricing .basic-card .btn {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.pricing .master-card .item-benefit img, .pricing .basic-card .item-benefit img {
+  float: left;
+  margin-right: 10px;
+}
+
+.pricing .master-card .item-benefit p, .pricing .basic-card .item-benefit p {
+  font-size: 16px;
+  font-weight: get-map(("reguler": 300, "medium": 400, "semibold": 500), reguler);
+}
+
+.pricing .master-card .name, .pricing .basic-card .name {
+  color: #3E4949;
+  font-size: 18px;
+  font-weight: get-map(("reguler": 300, "medium": 400, "semibold": 500), reguler);
+}
+
+.pricing .master-card .price, .pricing .basic-card .price {
+  color: #3E4949;
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.pricing .master-card .description, .pricing .basic-card .description {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.pricing .master-card .support, .pricing .basic-card .support {
+  margin-bottom: 30px;
+}
+
+.pricing .basic-card {
+  background: white;
+}
+
+.navbar-logo {
+  padding-top: 30px;
+}
+
+.navbar-logo .navbar-nav li {
+  padding-left: 30px;
+}
+
+.navbar-logo .navbar-nav .active {
+  color: #15ABA4 !important;
+  font-weight: 500 !important;
+}
+
+.navbar-logo .navbar-nav .nav-link {
+  color: #61b4b0;
+  font-weight: 300;
+}
+
+.sales {
+  padding-top: 70px;
+}
+
+.sales .brand {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.sales .brand .image-logos {
+  width: 500px;
+  margin-bottom: 80px;
+}
+
+.sales .copywriting .header {
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 60px;
+}
+
+.sales .copywriting .description {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #ADADAD;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.sales .hero img {
+  padding-bottom: 200px;
+  padding-left: 120px;
+}
+/*# sourceMappingURL=main.css.map */
